@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <video src="We Talked To Sophia — The AI Robot That Once Said It Would 'Destroy Humans' (1).mp4" autoplay controls id="video">
+
+  </video>
+  <br>
+  <button type="button" name="button"
+  onclick="play()">play</button>
+
+  <button type="button" name="button"
+  onclick="pause()">pause</button>
+  <br>
+  <audio src="[iSongs.info] 01 - Andamaina Kundanala Bomma.mp3" autoplay controls id="audio">
+
+  </audio>
+  <br>
+  <button type="button" name="button"
+  onclick="play()">play</button>
+
+  <button type="button" name="button"
+  onclick="pause()">pause</button>
+  </body>
+</html>
+<script type="text/javascript">
+  function play(){
+    var vid=document.getElementById('video');
+    vid.play();
+  }
+  function pause(){
+    var vid=document.getElementById('video');
+    vid.pause();
+  }
+</script>
+
+<script type="text/javascript">
+function play(){
+  var vid=document.getElementById('audio');
+  vid.play();
+}
+function pause(){
+  var vid=document.getElementById('audio');
+  vid.pause();
+}
+</script>
